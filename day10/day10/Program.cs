@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     {
         // Verilmiş 3 ədədin cəmini tapan method(həm int, həm double ədədlər üçün)
-        Console.WriteLine(Sum(4.5,12,34));
+        Console.WriteLine(Sum(4.6,12,34));
         //Verilmiş ədədlər siyahısındaki bütün ədədlərin cəmini tapan method(həm int, həm double ədədlər üçün)
          Console.WriteLine(SumArr(new double[] {5.6,2,3,4}));
         // Verilmiş yazıda veirlmiş charın yerləşdiyi ilk indexi tapan method(yoxdursa - 1 qaytarı)
@@ -47,13 +47,13 @@ class Program
     }
     static int Sum(int a,int b,int c)
     {
-        int cem = a + b + c;
-        return cem;
+        
+        return a+b+c;
     }
     static double Sum(double a, double b, double c)
     {
-        double cem = a + b + c;
-        return cem;
+        
+        return a + b + c;
     }
     static int SumArr(int[] arr)
     {
